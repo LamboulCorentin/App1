@@ -6,7 +6,6 @@
     <StackLayout>
     <Button Text="Hello"
             FontSize="Large"
-            FontAttributes="Italic"
             VerticalOptions="CenterAndExpand"
             HorizontalOptions="CenterAndExpand"/>
     </StackLayout>
