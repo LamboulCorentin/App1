@@ -4,21 +4,11 @@
              x:Class="App1.MainPage">
 
     <StackLayout>
-        <Frame BackgroundColor="Aqua" Padding="25" CornerRadius="0">
-            <Label Text="Hello Raph" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Label Text="Tu peux maintenant attaquer le design graphique" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
+    <Button Text="Hello"
+            FontSize="Large"
+            FontAttributes="Italic"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="CenterAndExpand"/>
     </StackLayout>
 
 </ContentPage>
